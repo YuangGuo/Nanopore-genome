@@ -1,0 +1,12 @@
+name: nanopore-autocycler
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - autocycler=0.8.0
+  - flye=2.9.6
+  - hifiasm=0.25.0
+  - raven-assembler=1.8.3
+  - miniasm
+  - minipolish
+  - minimap2=2.31

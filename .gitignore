@@ -1,0 +1,71 @@
+# ============================================================
+# Raw sequencing data
+# ============================================================
+00_raw_pod5/
+*.pod5
+*.fastq
+*.fastq.gz
+*.bam
+*.bai
+
+# ============================================================
+# Workflow outputs
+# ============================================================
+results/
+logs/
+benchmarks/
+.snakemake/
+
+# Historical project-stage directories
+01_basecalling/
+02_read_qc/
+03_genome_size/
+04_autocycler/
+05_assembly/
+06_genome_qc/
+07_annotation/
+08_mapping/
+09_modkit/
+10_nanomotif/
+11_microbemod/
+12_integrated_analysis/
+
+# ============================================================
+# Historical / project-specific scripts
+# ============================================================
+scripts/slurm/
+scripts/workflow/score_chromosome_motifs.py
+scripts/workflow/score_plasmid_motifs.py
+
+# ============================================================
+# Local configuration / test files
+# ============================================================
+config/config.yaml.backup*
+config/test_1000_read_ids.txt
+
+# ============================================================
+# External resources
+# ============================================================
+resources/
+
+# ============================================================
+# Crash dumps and logs
+# ============================================================
+core.*
+*.log
+*.out
+*.err
+
+# ============================================================
+# Local backups
+# ============================================================
+*.backup*
+Snakefile.backup*
+
+# ============================================================
+# OS / editor files
+# ============================================================
+.DS_Store
+*.swp
+*.swo
+*~

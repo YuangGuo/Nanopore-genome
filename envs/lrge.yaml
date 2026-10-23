@@ -1,0 +1,6 @@
+name: nanopore-lrge
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - lrge=1.0.0

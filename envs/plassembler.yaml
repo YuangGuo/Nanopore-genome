@@ -1,0 +1,7 @@
+name: nanopore-plassembler
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - plassembler=1.8.5
+  - dnaapler=1.4.0
